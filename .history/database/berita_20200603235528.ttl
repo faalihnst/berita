@@ -1,0 +1,167 @@
+@prefix author:<http://example.co.id/ns/authordata>
+@prefix news:<http://example.co.id/ns/newsdata>
+@prefix d:<http://example.co.id/ns/data#>
+
+d:a1001 author:nama"M. Hafidz Imaduddin";
+	author:email"hafidz@gmail.com".
+
+d:a1002 author:nama"Gilang Satria";
+	author:email"gilangs@gmail.com".
+
+d:a1003 author:nama"Irawan Sapto Adhi";
+	author:email"irawansapto@gmail.com".
+
+d:a1004 author:nama"Bill Clinten";
+	author:email"billclint@yahoo.com".
+
+d:a1005 author:nama"Ade Miranti Karunia";
+	author:email"adkar@gmail.com".
+
+d:a1006 author:nama"Suhaiela Bahfein";
+	author:email"suhbah@gmail.com".
+
+d:a1007 author:nama"Yohana Artha Uly";
+	author:email"yohana@rocketmail.com".
+
+d:a1008 author:nama"Wahyunanda Kusuma Pertiwi";
+	author:email"wahyunanda@gmail.com".
+
+d:a1009 author:nama"Nabilla Ramadhian";
+	author:email"nabilla@gmail.com".
+
+d:a1010 author:nama"Syifa Nuri Khairunnisa";
+	author:email"syifa@gmail.com".
+
+d:a1011 author:nama"Irawan Sapto Adhi";
+	author:email"irawan@gmail.com".
+
+d:a1012 author:nama"Gloria Setyvani Putri";
+	author:email"gloriastevy@gmail.com".
+
+d:a1013 author:nama"Muhammad Idris";
+	author:email"midris@yahoo.com".
+
+d:a1014 author:nama"Inang Jalaludin Shofihara";
+	author:email"inangjal@yahoo.com".
+
+d:n2001 news:title "Uang Dianggap Motif Utama Liga Inggris Dilanjutkan di Tengah Pandemi";
+	news:date "1 Juni 2020";
+	news:link "https://bola.kompas.com/read/2020/06/01/00050018/uang-dianggap-motif-utama-liga-inggris-dilanjutkan-di-tengah-pandemi?page=all";
+	news:category "Olahraga".
+
+d:n2002 news:title "Harga Produk Otomotif Indonesia Disebut Tak Ramah Konsumen";
+	news:date "31 Mei 2020";
+	news:link "https://otomotif.kompas.com/read/2020/05/31/094100415/harga-produk-otomotif-indonesia-disebut-tak-ramah-konsumen";
+	news:category "Otomotif".
+
+d:n2003 news:title "Ragam Sayuran yang Perlu Dihindari Pemilik Golongan Darah O";
+	news:date "30 Mei 2020";
+	news:link "https://health.kompas.com/read/2020/05/30/160000568/ragam-sayuran-yang-perlu-dihindari-pemilik-golongan-darah-o?page=all";
+	news:category "Kesehatan".
+
+d:n2004 news:title "Google Dituduh Mengungtit Pengguna Android Secara Diam-diam";
+	news:date "31 Mei 2020";
+	news:link "https://tekno.kompas.com/read/2020/05/31/14030057/google-dituduh-menguntit-pengguna-android-secara-diam-diam";
+	news:category "Teknologi".
+
+d:n2005 news:title "Wacana Pelonggaran PSBB, Sri Mulyani: Kesehatan dan Ekonomi Sama Penting";
+	news:date "31 Mei 2020";
+	news:link "https://money.kompas.com/read/2020/05/31/165500626/wacana-pelonggaran-psbb-sri-mulyani--kesehatan-dan-ekonomi-sama-penting?page=all";
+	news:category "Ekonomi".
+
+d:n2006 news:title "9 Tahun Beroperasi, Ini 11 Fakta Menarik Gojek";
+	news:date "2 November 2019";
+	news:link "https://money.kompas.com/read/2019/11/02/193812326/9-tahun-beroperasi-ini-11-fakta-menarik-gojek?page=all";
+	news:category "Ekonomi".
+
+d:n2007 news:title "Hampir Rampung, Rusun Pasar Jumat Jadi Percontohan Hunian TOD";
+	news:date "30 Mei 2020";
+	news:link "https://properti.kompas.com/read/2020/05/30/230000521/hampir-rampung-rusun-pasar-jumat-jadi-percontohan-hunian-berbasis-tod?page=all";
+	news:category "Properti".
+
+d:n2008 news:title "Mengenal SpaceX, Perusahaan Swasta Pertama yang Luncurkan Astronot ke Luar Angkasa";
+	news:date "31 Mei 2020";
+	news:link "https://www.kompas.com/sains/read/2020/05/31/200300023/mengenal-spacex-perusahaan-swasta-pertama-yang-luncurkan-astronot-ke-luar";
+	news:category "Sains".
+
+d:n2009 news:title "Angka Kematian ODP dan PDP 3,5 Kali dari Pasien Positif Covid-19";
+	news:date "29 Mei 2020";
+	news:link "https://www.kompas.com/sains/read/2020/05/29/080300523/angka-kematian-odp-dan-pdp-3-5-kali-dari-pasien-positif-covid-19";
+	news:category "Sains".
+
+d:n2010 news:title "Ribuan Satelit Baru Bakal Mengorbit, Para Astronom Khawatir";
+	news:date "25 Mei 2020";
+	news:link "https://www.kompas.com/sains/read/2020/05/25/101500523/ribuan-satelit-baru-bakal-mengorbit-para-astronom-khawatir";
+	news:category "Sains".
+
+d:n2011 news:title "Perselisihan Trump vs Twitter, Konflik Digital Yang Mengancam Platform Lain";
+	news:date "31 Mei 2020";
+	news:link "https://tekno.kompas.com/read/2020/05/31/11110027/perselisihan-trump-vs-twitter-konflik-digital-yang-mengancam-platform-lain";
+	news:category "Teknologi".
+
+d:n2012 news:title "Fitur Voice Typing Ponsel Android dan IPhone Diadu, Siapa Yang Unggul?";
+	news:date "31 Mei 2020";
+	news:link "https://tekno.kompas.com/read/2020/05/31/08140037/fitur-voice-typing-ponsel-android-dan-iphone-diadu-siapa-yang-unggul-";
+	news:category "Teknologi".
+
+d:n2013 news:title "Kunjungi 12 Lokasi Syuting The World of The Married, Liburan ke Korea Kelar Corona";
+	news:date "31 Mei 2020";
+	news:link "https://search.kompas.com/search/?q=Kunjungi+12+Lokasi+Syuting+The+World+of+The+Married%2C+Liburan+ke+Korea+Kelar+Corona&submit=Kirim";
+	news:category "Travel".
+
+d:n2014 news:title "Travelcast, Podcast Baru Dari Kompas Travel Membahas Wisata Belanja di Korea Selatan";
+	news:date "29 Mei 2020";
+	news:link "https://travel.kompas.com/read/2020/05/29/140600027/travelcast-podcast-baru-dari-kompas-travel-membahas-wisata-belanja-di-korea";
+	news:category "Travel".
+
+d:n2015 news:title "Ini Cara Membersihkan Telinga Yang Tepat Menurut Dokter THT";
+	news:date "31 Mei 2020";
+	news:link "https://health.kompas.com/read/2020/05/31/120000368/ini-cara-membersihkan-telinga-yang-tepat-menurut-dokter-tht?page=all";
+	news:category "Kesehatan".
+
+d:n2016 news:title "Waspadai Efek Buruk Makan Mie Instan Saat Buka Puasa dan Sahur";
+	news:date "2 Mei 2020";
+	news:link "https://health.kompas.com/read/2020/05/02/162000568/waspadai-efek-buruk-makan-mi-instan-saat-buka-puasa-dan-sahur?page=all";
+	news:category "Kesehatan".
+
+d:n2017 news:title "Yamaha Luncurkan XMax 300 Roma Edition";
+	news:date "31 Mei 2020";
+	news:link "https://otomotif.kompas.com/read/2020/05/31/163549615/yamaha-luncurkan-xmax-300-roma-edition";
+	news:category "Otomotif".
+
+d:n2018 news:title "Mengenal Bob dan Doug, Astronot Yang Terlibat Dalam Misi Bersejarah SpaceX - NASA";
+	news:date "31 Mei 2020";
+	news:link "https://www.kompas.com/sains/read/2020/05/31/134954723/mengenal-bob-dan-doug-astronot-yang-terlibat-dalam-misi-bersejarah-spacex";
+	news:category "Sains".
+
+d:n2019 news:title "Jika PNS Aktif Meninggal, Ahli Waris Dapat Apa?";
+	news:date "31 Mei 2020";
+	news:link "https://money.kompas.com/read/2020/05/31/101647226/jika-pns-aktif-meninggal-ahli-waris-dapat-apa";
+	news:category "Ekonomi".
+
+d:n2020 news:title "Kerusuhan di AS Meluas, DPR Minta Pemerintah Pastikan Keselamatan WNI";
+	news:date "31 Mei 2020";
+	news:link "https://nasional.kompas.com/read/2020/05/31/16255241/kerusuhan-di-as-meluas-dpr-minta-pemerintah-pastikan-keselamatan-wni";
+	news:category "Politik".
+
+#Relation author menulis berita
+d:a1001 news:write d:n2001.
+d:a1002 news:write d:n2002.
+d:a1003 news:write d:n2003.
+d:a1004 news:write d:n2004.
+d:a1005 news:write d:n2005.
+d:a1005 news:write d:n2006.
+d:a1006 news:write d:n2007.
+d:a1007 news:write d:n2008.
+d:a1007 news:write d:n2009.
+d:a1007 news:write d:n2010.
+d:a1008 news:write d:n2011.
+d:a1008 news:write d:n2012.
+d:a1009 news:write d:n2013.
+d:a1010 news:write d:n2014.
+d:a1011 news:write d:n2015.
+d:a1011 news:write d:n2016.
+d:a1002 news:write d:n2017.
+d:a1012 news:write d:n2018.
+d:a1013 news:write d:n2019.
+d:a1014 news:write d:n2020.
