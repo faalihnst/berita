@@ -1,0 +1,258 @@
+
+/* Header */
+.page-header {
+  position: relative;
+  margin: 0;
+padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fbfbfd;
+  border-bottom: 2px solid #F4f4f9;
+}
+.page-header .background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+}
+.page-header .background-img:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(33, 38, 49, 0.3)), to(transparent));
+  background-image: linear-gradient(to top, rgba(33, 38, 49, 0.3) 0%, transparent 100%);
+}
+#post-header.page-header {
+  padding-top: 120px;
+}
+.page-header h1 {
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+#post-header.page-header h1 {
+  color: #FFF;
+}
+.page-header .post-meta {
+  margin: 15px 0px;
+}
+.page-header .post-meta .post-date {
+  color: #eceef2;
+}
+.page-header .page-header-breadcrumb {
+  margin: 15px 0px;
+}
+.page-header .page-header-breadcrumb li {
+  display: inline-block;
+}
+.page-header .page-header-breadcrumb li, .page-header .page-header-breadcrumb li a {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #a7b3c6;
+}
+.page-header .page-header-breadcrumb li a {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+.page-header .page-header-breadcrumb li a:hover, .page-header .page-header-breadcrumb li a:focus {
+  color: #0b0f28;
+  text-decoration: none;
+}
+.page-header .page-header-breadcrumb li + li:before {
+  content: '/';
+  display: inline-block;
+  margin: 0px 10px;
+}
+/* Header */
+.WebContainer{
+  width: 100%;
+  height: auto;
+}
+
+.container1{
+  overflow: hidden;
+}
+
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+  
+  /* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+.judul{
+  font-weight: bold;
+}
+
+.col-md-10{
+  margin-left: 80px;
+  margin-top: 10px;
+  padding: 10px;
+  border-bottom: 1.5pt solid #E4DFDA;
+}
+
+.col-md-5{
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+
+.col-md-2{
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 15px;
+} 
+
+a#skripsi{
+  font-weight: bold;;
+  margin-left: 15px;
+  font-size: 20pt;
+}
+
+.result{
+  color: grey;
+}
+
+h5{
+  padding: 20px;
+  margin-left: 70px;
+}
+
+footer{
+  background-color: #1abc9c;
+  color: whitesmoke;
+  padding: 20px;
+  margin-top: 110px;
+}
+
+form{
+  margin-top: 20px;
+  transform: translateY(15px);
+}
+
+input#titleBar{
+  width: 600px;
+}
+
+input#nameBar{
+  width: 300px;
+  margin-left: 255px;
+  margin-right: 0px;
+}
+
+input#npmBar{
+  width: 250px;
+  margin-right: 220px;
+}
+
+.dropdown{
+  margin-top: 10px;
+  margin-inline-start: 550px;
+  transform: translateY(-10px); 
+  width: 600px;
+  margin-left: 350px;
+}
+
+.row{
+  margin-top: 10px;
+}
+
+.button#search{
+  margin-top: 10px;
+  margin-left: 550px;
+  width: 200px;
+}
+
+.grid-container{
+  grid-template-columns: auto auto;
+}
+
+/* css login */
+.container#login{
+  height:480px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color:#1abc9c;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+img{
+  width: 577; 
+  height: 433;
+  margin-top: 80px;
+  margin-left: -200px;
+}
+
+.welcome{
+  transform: rotate(-90deg);
+  margin-left: -250px;
+  color: white;
+}
+
+.btn-login{
+  justify-content: flex-end;
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  font-size: 24px;
+  background-color: blue;
+  color: white;
+
+}
+
+.form-word{
+  margin-left: 0px;
+  margin-top: -90px;
+  font-size: 25px;
+  color: white;
+}
+
+.form-group{
+  margin-top: 120px;
+  width: 100px;
+}
+
+/* css skripsi */
+
+.col-md-8#title{
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.btn-holder {
+  justify-content: flex-end;
+  display: flex;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+p#judul{
+  font-weight: bold;;
+  margin-left: 15px;
+  font-size: 18pt;
+  color: white;
+}
+
+article#abstrak{
+  margin-top: 15px;
+  padding: 3px;
+  font-style: italic;
+}
+
+.imgSkripsi{
+  width: 300px; 
+  height: 400px;
+  margin-top: 35px;
+  margin-left: 10px;
+}

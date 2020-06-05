@@ -1,207 +1,294 @@
-@prefix author:<http://beritapp.co.id/dataset/authordata>
-@prefix news:<http://beritapp.co.id/dataset/newsdata>
-@prefix d:<http://beritapp.co.id/dataset/data#>
+@prefix author:<http://beritapp.co.id/data/author>
+@prefix news:<http://beritapp.co.id/data/news>
+@prefix user:<http://beritapp.co.id/data/user>
+@prefix tag:<http://beritapp.co.id/data/tag>
+@prefix d:<http://beritapp.co.id/data>
+@prefix rel:<http://beritapp.co.id/relation>
 
 #Author
 d:a1001 author:nama "M. Hafidz Imaduddin";
-	author:write "Uang Dianggap Motif Utama Liga Inggris Dilanjutkan di Tengah Pandemi";
 	author:email "hafidz@gmail.com".
 
 d:a1002 author:nama "Gilang Satria";
-	author:write "Harga Produk Otomotif Indonesia Disebut Tak Ramah Konsumen";
-	author:write "Yamaha Luncurkan XMax 300 Roma Edition";
 	author:email "gilangs@gmail.com".
 
 d:a1003 author:nama "Irawan Sapto Adhi";
-	author:write "Ragam Sayuran yang Perlu Dihindari Pemilik Golongan Darah O";
 	author:email "irawansapto@gmail.com".
 
 d:a1004 author:nama "Bill Clinten";
-	author:write "Google Dituduh Mengungtit Pengguna Android Secara Diam-diam";
 	author:email "billclint@yahoo.com".
 
 d:a1005 author:nama "Ade Miranti Karunia";
-	author:write "Wacana Pelonggaran PSBB, Sri Mulyani: Kesehatan dan Ekonomi Sama Penting";
-	author:write "9 Tahun Beroperasi, Ini 11 Fakta Menarik Gojek";
 	author:email"adkar@gmail.com".
 
 d:a1006 author:nama "Suhaiela Bahfein";
-	author:write "Hampir Rampung, Rusun Pasar Jumat Jadi Percontohan Hunian TOD";
 	author:email "suhbah@gmail.com".
 
 d:a1007 author:nama "Yohana Artha Uly";
-	author:write "Mengenal SpaceX, Perusahaan Swasta Pertama yang Luncurkan Astronot ke Luar Angkasa";
-	author:write "Angka Kematian ODP dan PDP 3,5 Kali dari Pasien Positif Covid-19";
-	author:write "Ribuan Satelit Baru Bakal Mengorbit, Para Astronom Khawatir";
 	author:email "yohana@rocketmail.com".
 
 d:a1008 author:nama "Wahyunanda Kusuma Pertiwi";
-	author:write "Perselisihan Trump vs Twitter, Konflik Digital Yang Mengancam Platform Lain";
-	author:write "Fitur Voice Typing Ponsel Android dan IPhone Diadu, Siapa Yang Unggul?";
 	author:email "wahyunanda@gmail.com".
 
 d:a1009 author:nama "Nabilla Ramadhian";
-	author:write "Kunjungi 12 Lokasi Syuting The World of The Married, Liburan ke Korea Kelar Corona";
 	author:email "nabilla@gmail.com".
 
 d:a1010 author:nama "Syifa Nuri Khairunnisa";
-	author:write "Travelcast, Podcast Baru Dari Kompas Travel Membahas Wisata Belanja di Korea Selatan";
 	author:email "syifa@gmail.com".
 
 d:a1011 author:nama "Irawan Sapto Adhi";
-	author:write "Ini Cara Membersihkan Telinga Yang Tepat Menurut Dokter THT";
-	author:write "Waspadai Efek Buruk Makan Mie Instan Saat Buka Puasa dan Sahur";
 	author:email "irawan@gmail.com".
 
 d:a1012 author:nama "Gloria Setyvani Putri";
-	author:write "Mengenal Bob dan Doug, Astronot Yang Terlibat Dalam Misi Bersejarah SpaceX - NASA";
 	author:email "gloriastevy@gmail.com".
 
 d:a1013 author:nama "Muhammad Idris";
-	author:write "Jika PNS Aktif Meninggal, Ahli Waris Dapat Apa?";
 	author:email "midris@yahoo.com".
 
 d:a1014 author:nama "Inang Jalaludin Shofihara";
-	author:write "Kerusuhan di AS Meluas, DPR Minta Pemerintah Pastikan Keselamatan WNI";
 	author:email "inangjal@yahoo.com".
 
 #News
 d:n2001 news:title "Uang Dianggap Motif Utama Liga Inggris Dilanjutkan di Tengah Pandemi";
 	news:date "1 Juni 2020";
 	news:abstract "KOMPAS.com - Rencana melanjutkan Liga Inggris di tengah pandemi virus corona kembali mendapat tanggapan negatif dari pemain yang terlibat.";
-	news:category "Olahraga";
-	news:writtenby "M. Hafidz Imaduddin";
 	news:link "https://bola.kompas.com/read/2020/06/01/00050018/uang-dianggap-motif-utama-liga-inggris-dilanjutkan-di-tengah-pandemi?page=all".
 
 d:n2002 news:title "Harga Produk Otomotif Indonesia Disebut Tak Ramah Konsumen";
 	news:date "31 Mei 2020";
-	news:category "Otomotif";
-	news:writtenby "Gilang Satria";
 	news:abstract "JAKARTA, KOMPAS.com - Pandemi Covid-19 membuat penjualan sektor otomotif baik mobil dan sepeda motor turun drastis. Meski demikian ada anggapan sebetulnya selama ini pasar di Indonesia memang tidak ramah konsumen.";
 	news:link "https://otomotif.kompas.com/read/2020/05/31/094100415/harga-produk-otomotif-indonesia-disebut-tak-ramah-konsumen".
 
 d:n2003 news:title "Ragam Sayuran yang Perlu Dihindari Pemilik Golongan Darah O";
 	news:date "30 Mei 2020";
-	news:category "Kesehatan";
-	news:writtenby "";
 	news:abstract "KOMPAS.com – Golongan darah manusia secara umum dibedakan menjadi A, B, O, dan AB.";
 	news:link "https://health.kompas.com/read/2020/05/30/160000568/ragam-sayuran-yang-perlu-dihindari-pemilik-golongan-darah-o?page=all".
 
 d:n2004 news:title "Google Dituduh Mengungtit Pengguna Android Secara Diam-diam";
 	news:date "31 Mei 2020";
-	news:category "Teknologi";
-	news:writtenby "Bill Clinten";
 	news:abstract "KOMPAS.com - Google kembali diterpa masalah. Baru-baru ini, seorang Jaksa Agung negara bagian Arizona, Amerika Serikat (AS), menuntut raksasa mesin pencari itu atas dugaan praktik pengumpulan data yang tidak wajar.";
 	news:link "https://tekno.kompas.com/read/2020/05/31/14030057/google-dituduh-menguntit-pengguna-android-secara-diam-diam".
 
 d:n2005 news:title "Wacana Pelonggaran PSBB, Sri Mulyani: Kesehatan dan Ekonomi Sama Penting";
 	news:date "31 Mei 2020";
-	news:category "Ekonomi";
-	news:writtenby "Ade Miranti Karunia";
 	news:abstract "JAKARTA, KOMPAS.com - Menteri Keuangan (Menkeu) Sri Mulyani Indrawati mempertanyakan manakah yang lebih harus didahulukan, kesehatan atau ekonomi.";
 	news:link "https://money.kompas.com/read/2020/05/31/165500626/wacana-pelonggaran-psbb-sri-mulyani--kesehatan-dan-ekonomi-sama-penting?page=all".
 
 d:n2006 news:title "9 Tahun Beroperasi, Ini 11 Fakta Menarik Gojek";
 	news:date "2 November 2019";
-	news:category "Ekonomi";
-	news:writtenby "Ade Miranti Karunia";
 	news:abstract "JAKARTA, KOMPAS.com - Sejak berdirinya PT Aplikasi Karya Anak Bangsa dengan nama populernya Gojek pada 2010 lalu di Indonesia, perusahaan ini mampu bersaing dengan kompetitornya Grab yang berasal dari Malaysia.";
 	news:link "https://money.kompas.com/read/2019/11/02/193812326/9-tahun-beroperasi-ini-11-fakta-menarik-gojek?page=all".
 
 d:n2007 news:title "Hampir Rampung, Rusun Pasar Jumat Jadi Percontohan Hunian TOD";
 	news:date "30 Mei 2020";
-	news:category "Properti";
-	news:writtenby "Suhaiela Bahfein";
 	news:abstract "JAKARTA, KOMPAS.com - Kementerian Pekerjaan Umum dan Perumahan Rakyat ( PUPR)  tengah menyelesaikan pembangunan Rumah Susun ( Rusun) Tingkat Tinggi Pasar Jumat. ";
 	news:link "https://properti.kompas.com/read/2020/05/30/230000521/hampir-rampung-rusun-pasar-jumat-jadi-percontohan-hunian-berbasis-tod?page=all".
 
 d:n2008 news:title "Mengenal SpaceX, Perusahaan Swasta Pertama yang Luncurkan Astronot ke Luar Angkasa";
 	news:date "31 Mei 2020";
-	news:category "Sains";
-	news:writtenby "Yohana Artha Uly";
 	news:abstract "KOMPAS.com - Amerika Serikat (AS) baru saja mencatat sejarah baru dalam perjalanan ke ruang angkasa bagi manusia. Pada Sabtu (30/5/2020), dua astronot NASA meluncur ke stasiun ruang angkasa internasional (ISS) menggunakan kapsul Dragon yang diterbangkan roket Falcon 9 milik SpaceX.";
 	news:link "https://www.kompas.com/sains/read/2020/05/31/200300023/mengenal-spacex-perusahaan-swasta-pertama-yang-luncurkan-astronot-ke-luar".
 
 d:n2009 news:title "Angka Kematian ODP dan PDP 3,5 Kali dari Pasien Positif Covid-19";
 	news:date "29 Mei 2020";
-	news:category "Sains";
-	news:writtenby "Yohana Artha Uly";
 	news:abstract "KOMPAS.com - Keakuratan data kasus Covid-19 di Indonesia menjadi sorotan banyak kalangan. Sebab, seringkali terjadi perbedaan data antara pemerintah pusat dan daerah.";
 	news:link "https://www.kompas.com/sains/read/2020/05/29/080300523/angka-kematian-odp-dan-pdp-3-5-kali-dari-pasien-positif-covid-19".
 
 d:n2010 news:title "Ribuan Satelit Baru Bakal Mengorbit, Para Astronom Khawatir";
 	news:date "25 Mei 2020";
-	news:category "Sains";
-	news:writtenby "Yohana Artha Uly";
 	news:abstract "KOMPAS.com - Sejak peluncuran satelit buatan manusia pertama yakni Sputnik 1 pada tahun 1957 ke orbit bumi rendah atau low earth orbit (LEO), kini ada sekitar 2.220 satelit yang telah ditempatkan pada orbit tersebut.";
 	news:link "https://www.kompas.com/sains/read/2020/05/25/101500523/ribuan-satelit-baru-bakal-mengorbit-para-astronom-khawatir".
 
 d:n2011 news:title "Perselisihan Trump vs Twitter, Konflik Digital Yang Mengancam Platform Lain";
 	news:date "31 Mei 2020";
-	news:category "Teknologi";
-	news:writtenby "Irawan Sapto Adhi";
 	news:abstract "KOMPAS.com - Di dalam bahasa jawa dikenal istilah kutuk marani gebuk. Artinya kira-kira sesorang yang sengaja mendatangi bahaya.";
 	news:link "https://tekno.kompas.com/read/2020/05/31/11110027/perselisihan-trump-vs-twitter-konflik-digital-yang-mengancam-platform-lain".
 
 d:n2012 news:title "Fitur Voice Typing Ponsel Android dan IPhone Diadu, Siapa Yang Unggul?";
 	news:date "31 Mei 2020";
-	news:category "Teknologi";
-	news:writtenby "Irawan Sapto Adhi";
 	news:abstract "KOMPAS.com - Voice typing atau fitur pengetikan teks lewat input suara sebenarnya cukup berguna. Namun fitur ini jarang digunakan oleh pengguna smartphone.";
 	news:link "https://tekno.kompas.com/read/2020/05/31/08140037/fitur-voice-typing-ponsel-android-dan-iphone-diadu-siapa-yang-unggul-".
 
 d:n2013 news:title "Kunjungi 12 Lokasi Syuting The World of The Married, Liburan ke Korea Kelar Corona";
 	news:date "31 Mei 2020";
-	news:category "Travel";
-	news:writtenby "Nabilla Ramadhian";
 	news:abstract "JAKARTA, KOMPAS.com – Beragam tempat wisata di Korea Selatan kerap kali muncul sebagai setting dramanya yang populer di dunia termasuk Indonesia.";
 	news:link "https://travel.kompas.com/read/2020/05/31/210500827/kunjungi-12-lokasi-syuting-the-world-of-the-married-liburan-ke-korea-kelar?page=all".
 
 d:n2014 news:title "Travelcast, Podcast Baru Dari Kompas Travel Membahas Wisata Belanja di Korea Selatan";
 	news:date "29 Mei 2020";
-	news:category "Travel";
-	news:writtenby "Syifa Nuri Khairunnisa";
 	news:abstract "JAKARTA, KOMPAS.com – Masa pandemi corona memang belum berakhir, tetapi itu bukan berarti kamu tidak bisa merencanakan perjalanan liburan untuk masa yang akan datang.";
 	news:link "https://travel.kompas.com/read/2020/05/29/140600027/travelcast-podcast-baru-dari-kompas-travel-membahas-wisata-belanja-di-korea".
 
 d:n2015 news:title "Ini Cara Membersihkan Telinga Yang Tepat Menurut Dokter THT";
 	news:date "31 Mei 2020";
-	news:category "Kesehatan";
-	news:writtenby "Irawan Sapto Adhi";
 	news:abstract "KOMPAS.com – Penggunaan cotton bud untuk membersihkan kotoran telinga atau serumen tidak direkomendasikan oleh ahli karena malah bisa membahayakan organ pendengaran tersebut.";
 	news:link "https://health.kompas.com/read/2020/05/31/120000368/ini-cara-membersihkan-telinga-yang-tepat-menurut-dokter-tht?page=all".
 
 d:n2016 news:title "Waspadai Efek Buruk Makan Mie Instan Saat Buka Puasa dan Sahur";
 	news:date "2 Mei 2020";
-	news:category "Kesehatan";
-	news:writtenby "Irawan Sapto Adhi";
 	news:abstract "KOMPAS.com – Mi instan kerap menjadi makanan alternatif bagi banyak orang saat buka puasa, apalagi sahur.";
 	news:link "https://health.kompas.com/read/2020/05/02/162000568/waspadai-efek-buruk-makan-mi-instan-saat-buka-puasa-dan-sahur?page=all".
 
 d:n2017 news:title "Yamaha Luncurkan XMax 300 Roma Edition";
 	news:date "31 Mei 2020";
-	news:category "Otomotif";
-	news:writtenby "Gilang Satria";
 	news:abstract "ROMA, KOMPAS.com - Yamaha meluncurkan varian baru Yamaha Xmax 300 Roma Edition di Italia. Sesuai namanya edisi ini dibuat sebagai perayaan atas Ibu Kota Italia tersebut.";
 	news:link "https://otomotif.kompas.com/read/2020/05/31/163549615/yamaha-luncurkan-xmax-300-roma-edition".
 
 d:n2018 news:title "Mengenal Bob dan Doug, Astronot Yang Terlibat Dalam Misi Bersejarah SpaceX - NASA";
 	news:date "31 Mei 2020";
-	news:category "Sains";
-	news:writtenby "Gloria Setyvani Putri";
 	news:abstract "KOMPAS.com - Robert Behnken dan Douglas Hurley adalah astronot NASA yang meluncur ke orbit pada Sabtu dengan roket SpaceX.";
 	news:link "https://www.kompas.com/sains/read/2020/05/31/134954723/mengenal-bob-dan-doug-astronot-yang-terlibat-dalam-misi-bersejarah-spacex".
 
 d:n2019 news:title "Jika PNS Aktif Meninggal, Ahli Waris Dapat Apa?";
 	news:date "31 Mei 2020";
-	news:category "Ekonomi";
-	news:writtenby "Muhammad Idris";
 	news:abstract "JAKARTA, KOMPAS.com - Jika seorang pegawai negeri sipil ( PNS) meninggal sebelum memasuki usia pensiun atau masih aktif bekerja, maka pemerintah memberikan dana tunjangan dan hak lainnya bagi ahli waris yang pencairannya dilakukan lewat PT Taspen (Persero).";
 	news:link "https://money.kompas.com/read/2020/05/31/101647226/jika-pns-aktif-meninggal-ahli-waris-dapat-apa".
 
 d:n2020 news:title "Kerusuhan di AS Meluas, DPR Minta Pemerintah Pastikan Keselamatan WNI";
 	news:date "31 Mei 2020";
-	news:category "Politik";
-	news:writtenby "Inang Jalaludin Shofihara";
 	news:abstract "KOMPAS.com – Ketua Komisi I DPR Meutya Hafid menyayangkan meluasnya kerusuhan dari aksi massa di sejumlah kota Amerika Serikat ( AS).";
 	news:link "https://nasional.kompas.com/read/2020/05/31/16255241/kerusuhan-di-as-meluas-dpr-minta-pemerintah-pastikan-keselamatan-wni".
+
+#Tag
+d:t3001 tag:name "Olahraga".
+d:t3002 tag:name "Otomotif".
+d:t3003 tag:name "Kesehatan".
+d:t3004 tag:name "Teknologi".
+d:t3005 tag:name "Ekonomi".
+d:t3006 tag:name "Properti".
+d:t3007 tag:name "Sains".
+d:t3008 tag:name "Travel".
+d:t3009 tag:name "Politik".
+
+#User
+d:u4001	user:email "user1@gmail.com";
+	user:password "123456";
+	user:nama "Eben Haezar".
+
+d:u4002	user:email "user2@gmail.com";
+	user:password "1234567";
+	user:nama "Ghema Allan".
+
+d:u4003	user:email "user3@gmail.com";
+	user:password "12345678";
+	user:nama "Faalih Nasution".
+
+d:u4004	user:email "user4@gmail.com";
+	user:password "123456789";
+	user:nama "Fakhri Rahman".
+
+d:u4005	user:email "user5@gmail.com";
+	user:password "12345678910";
+	user:nama "Felicia Dela".
+
+d:u4006	user:email "user6@gmail.com";
+	user:password "1234567891011";
+	user:nama "Reinard Alvin".
+
+d:u4007	user:email "user7@gmail.com";
+	user:password "123456789101112";
+	user:nama "Astu Damar".
+
+#Relation author kepada news
+d:a1001 rel:write d:n2001.
+d:a1002 rel:write d:n2002.
+d:a1003 rel:write d:n2003.
+d:a1004 rel:write d:n2004.
+d:a1005 rel:write d:n2005.
+d:a1005 rel:write d:n2006.
+d:a1006 rel:write d:n2007.
+d:a1007 rel:write d:n2008.
+d:a1007 rel:write d:n2009.
+d:a1007 rel:write d:n2010.
+d:a1008 rel:write d:n2011.
+d:a1008 rel:write d:n2012.
+d:a1009 rel:write d:n2013.
+d:a1010 rel:write d:n2014.
+d:a1011 rel:write d:n2015.
+d:a1011 rel:write d:n2016.
+d:a1002 rel:write d:n2017.
+d:a1012 rel:write d:n2018.
+d:a1013 rel:write d:n2019.
+d:a1014 rel:write d:n2020.
+
+#Relation news kepada author
+d:n2001 rel:writtenby d:a1001.
+d:n2002 rel:writtenby d:a1002.
+d:n2003 rel:writtenby d:a1003.
+d:n2004 rel:writtenby d:a1004.
+d:n2005 rel:writtenby d:a1005.
+d:n2006 rel:writtenby d:a1005.
+d:n2007 rel:writtenby d:a1006.
+d:n2008 rel:writtenby d:a1007.
+d:n2009 rel:writtenby d:a1007.
+d:n2010 rel:writtenby d:a1007.
+d:n2011 rel:writtenby d:a1008.
+d:n2012 rel:writtenby d:a1008.
+d:n2013 rel:writtenby d:a1009.
+d:n2014 rel:writtenby d:a1010.
+d:n2015 rel:writtenby d:a1011.
+d:n2016 rel:writtenby d:a1011.
+d:n2017 rel:writtenby d:a1002.
+d:n2018 rel:writtenby d:a1012.
+d:n2019 rel:writtenby d:a1013.
+d:n2020 rel:writtenby d:a1014.
+
+#Relation news kepada tag
+d:n2001 rel:inside d:t3001.
+d:n2002 rel:inside d:t3002.
+d:n2003 rel:inside d:t3003.
+d:n2004 rel:inside d:t3004.
+d:n2005 rel:inside d:t3005.
+d:n2006 rel:inside d:t3005.
+d:n2007 rel:inside d:t3006.
+d:n2008 rel:inside d:t3007.
+d:n2009 rel:inside d:t3007.
+d:n2010 rel:inside d:t3007.
+d:n2011 rel:inside d:t3004.
+d:n2012 rel:inside d:t3004.
+d:n2013 rel:inside d:t3008.
+d:n2014 rel:inside d:t3008.
+d:n2015 rel:inside d:t3003.
+d:n2016 rel:inside d:t3003.
+d:n2017 rel:inside d:t3002.
+d:n2018 rel:inside d:t3007.
+d:n2019 rel:inside d:t3005.
+d:n2020 rel:inside d:t3009.
+
+#Relation tag kepada news
+d:t3001 rel:has d:n2001.
+d:t3002 rel:has d:n2002.
+d:t3003 rel:has d:n2003.
+d:t3004 rel:has d:n2004.
+d:t3005 rel:has d:n2005.
+d:t3005 rel:has d:n2006.
+d:t3006 rel:has d:n2007.
+d:t3007 rel:has d:n2008.
+d:t3007 rel:has d:n2009.
+d:t3007 rel:has d:n2010.
+d:t3004 rel:has d:n2011.
+d:t3004 rel:has d:n2012.
+d:t3008 rel:has d:n2013.
+d:t3008 rel:has d:n2014.
+d:t3003 rel:has d:n2015.
+d:t3003 rel:has d:n2016.
+d:t3002 rel:has d:n2017.
+d:t3007 rel:has d:n2018.
+d:t3005 rel:has d:n2019.
+d:t3009 rel:has d:n2020.
+
+#Relation user kepada tag
+d:u4001 rel:interest d:t3001.
+d:u4001 rel:interest d:t3002.
+d:u4001 rel:interest d:t3004.
+d:u4002 rel:interest d:t3003.
+d:u4003 rel:interest d:t3005.
+d:u4003 rel:interest d:t3002.
+d:u4004 rel:interest d:t3009.
+d:u4004 rel:interest d:t3001.
+d:u4004 rel:interest d:t3003.
+d:u4005 rel:interest d:t3006.
+d:u4006 rel:interest d:t3001.
+d:u4007 rel:interest d:t3001.
+d:u4007 rel:interest d:t3003.
+d:u4007 rel:interest d:t3008.

@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
+import axios from 'axios';
+import qs from 'qs';
 import './assets/style.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Homepage from "./pages/homepage";
+import Home from "./pages/home";
 // import Login from "./Pages/login";
 // import Skripsi from "./Pages/skripsi";
 
@@ -16,6 +19,7 @@ function App() {
     <div className="App">
       <Router>
         <Route exact path="/" component={Homepage}></Route>
+        <Route exact path="/home" component={Home}></Route>
         {/* <Route exact path="/Login" component={Login}></Route>
         <Route exact path="/Skripsi" component={Skripsi}></Route> */}
       </Router>

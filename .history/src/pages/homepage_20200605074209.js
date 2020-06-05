@@ -15,7 +15,7 @@ export default function Homepage() {
     abstract: "",
   });
 
-  const dataAPI = async () => {
+  const getData = async () => {
     const BASE_URL = "http://localhost:3030/berita-app/query";
 
     const headers = {
@@ -23,7 +23,7 @@ export default function Homepage() {
       "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
     };
 
-    const body = {
+    const queryData = {
       query: `PREFIX news:<http://example.co.id/ns/newsdata>
             SELECT DISTINCT ?title ?date ?link ?category ?abstract ?author
             WHERE {
@@ -42,26 +42,26 @@ export default function Homepage() {
       const { data } = await axios(BASE_URL, {
         method: "POST",
         headers,
-        data: qs.stringify(body),
+        data: qs.stringify(queryData),
       });
       console.log(data);
 
       // Convert Data
-      const dataFormat = data.results.bindings.map((news, index) =>
-        jsonFormatter(news, index)
+      const formatted_data = data.results.bindings.map((news, index) =>
+        formatter(news, index)
       );
-      console.log(dataFormat);
+      console.log(formatted_data);
 
       setValue({
         ...value,
-        news: dataFormat,
+        news: formatted_data,
       });
     } catch (err) {
       console.error(err);
     }
   };
 
-  const jsonFormatter = (news, index) => {
+  const formatter = (news, index) => {
     return {
       id: index,
       title: news.title.value,
@@ -96,13 +96,9 @@ export default function Homepage() {
             <a href={`${news.link}`}>{news.title}</a>
           </div>
           <div class="row">
-            <div class="col-md-3">Preview</div>
             <div class="col-md-3">{news.category}</div>
             <div class="col-md-3">{news.date}</div>
             <div class="col-md-3">{news.author}</div>
-          </div>
-          <div class="row">
-            <div class="">{news.abstract}</div>
           </div>
         </div>
       </div>
@@ -129,13 +125,13 @@ export default function Homepage() {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row col-xs-1 text-center">
             <input
               type="button"
               className="button col-xs-1 text-center"
               id="search"
               value="Search"
-              onClick={dataAPI}
+              onClick={getData}
             />
           </div>
         </form>
